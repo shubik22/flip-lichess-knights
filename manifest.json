@@ -1,0 +1,10 @@
+{
+  "name": "Flip Lichess Knights",
+  "description": "Flip the direction of the knights on lichess.org",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"]
+}
